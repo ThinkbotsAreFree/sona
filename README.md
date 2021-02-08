@@ -47,7 +47,7 @@ man-queen        +1       +1
 man-woman        +1       =0
 woman-king       -1       +1
 woman-queen      =0       +1
-woman-man        -1       +0
+woman-man        -1       =0
 ```
 
 vectors are transitive.
@@ -56,15 +56,11 @@ vectors are transitive.
 
 semes are like archetypes, classes, or models.
 
-atoms are instances of semes. they keep the same meaning.
+atoms are instances of semes.
 
 ### entities
 
 entities are structures of atoms.
-
-```
-atom(atom atom atom(atom) atom)
-```
 
 
 
