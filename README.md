@@ -13,13 +13,15 @@ sona has a 100% regular syntax.
 
 ```
 a(b c d(e f) g)
-
-is like s-exp: (a b c (d e f) g)
-
-a(b)(c d)
-
-is like s-exp: ((a b) c d)
 ```
+
+is like s-exp: `(a b c (d e f) g)`
+
+```
+a(b)(c d)
+```
+
+is like s-exp: `((a b) c d)`
 
 
 
