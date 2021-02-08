@@ -27,13 +27,13 @@ is like s-exp: `((a b) c d)`
 
 ## underlying core concepts
 
-### vectors and atoms
+### vectors and semes
 
 sona is based on differential vectors.
 
-an atom is defined only by its relations to other atoms.
+a seme is a minimal unit of meaning. a seme is defined only by its relations to other semes.
 
-a relation between two atoms is characterized by an N-dimensions vector that describes the relation.
+a relation between two semes is characterized by an N-dimensions vector that describes the relation.
 ```
                  gender   rarity   ...
 king-queen       +1       =0
@@ -51,6 +51,12 @@ woman-man        -1       +0
 ```
 
 vectors are transitive.
+
+### atoms
+
+semes are like archetypes, classes, or models.
+
+atoms are instances of semes. they keep the same meaning.
 
 ### objects
 
