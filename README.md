@@ -58,9 +58,9 @@ semes are like archetypes, classes, or models.
 
 atoms are instances of semes. they keep the same meaning.
 
-### objects
+### entities
 
-objects are structures of connected atoms.
+entities are structures of atoms.
 
 ```
 atom(atom atom atom(atom) atom)
