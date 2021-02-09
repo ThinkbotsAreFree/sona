@@ -96,7 +96,9 @@ the atom constructor is `atom`.
 
 
 ```
-seme(puppy)(young dog)
+seme(king queen)(
+    gender(1)
+)
 ```
 
 
