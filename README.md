@@ -81,7 +81,7 @@ vec(
     age(-1)
 )
 ```
-the first vector is from a male to a female of same age, the second vector is from a female to an younger male.
+the first vector is from a male to a female of same age, the second vector is from a female to a younger male.
 
 
 
