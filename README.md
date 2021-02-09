@@ -64,7 +64,7 @@ atoms are instances of semes.
 
 ### declarations
 
-dimensions are declared with `dim` and vectors with `vec`.
+dimension constructor is `dim`. vector constructor is `vec`.
 
 ```
 dim(
@@ -74,7 +74,10 @@ dim(
 
 vec( gender(1) )
 
-vec( gender(-1) age(-1) )
+vec(
+    gender(-1)
+    age(-1)
+)
 ```
 the first vector is from a male to a female of same age.
 
