@@ -88,5 +88,16 @@ the first vector is from a male to a female of same age, the second vector is fr
 
 
 
+### entities
+
+the seme constructor is `seme`.
+
+the atom constructor is `atom`.
+
+
+```
+seme(puppy)(young dog)
+```
+
 
 
