@@ -52,17 +52,35 @@ woman-man        -1       =0
 
 vectors are transitive.
 
+
+
 ### atoms
 
 semes are like archetypes, classes, or models.
 
 atoms are instances of semes.
 
+
+
 ### entities
 
 entities are structures of atoms.
 
+```
+a(b c(d) e)
 
+         order   level
+a-b      =0      -1
+a-c      =0      -1
+a-d      =0      =0
+a-e      =0      -1
+b-c      +1      =0
+b-d      =0      =0
+b-e      =0      =0
+c-d      =0      -1
+c-e      +1      =0
+d-e      =0      =0
+```
 
 
 
