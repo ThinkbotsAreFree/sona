@@ -64,9 +64,9 @@ atoms are instances of semes.
 
 ### declarations
 
-dimension constructor is `dim`.
+the dimension constructor is `dim`.
 
-vector constructor is `vec`.
+the vector constructor is `vec`.
 
 ```
 dim(
