@@ -64,7 +64,7 @@ atoms are instances of semes.
 
 ### entities
 
-entities are structures of atoms.
+entities are structures made of atoms.
 
 ```
 a(b c(d) e)
