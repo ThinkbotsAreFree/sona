@@ -73,6 +73,7 @@ the vector constructor is `vec`.
 dim(
     gender(male female)
     age(young adult old)
+    species(dog cat cow)
 )
 
 vec( gender(1) )
