@@ -5,7 +5,7 @@
 
 a scripting language
 
-*from an objective situation, a subjective vision emerges by subtraction. vectors capture these contrasts and react accordingly.*
+*from an objective situation, a subjective perception emerges by subtraction. vectors capture these contrasts and react accordingly.*
 
 
 
