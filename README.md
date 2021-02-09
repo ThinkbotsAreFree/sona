@@ -72,11 +72,13 @@ dim(
     age(young adult old)
 )
 
-vec( gender(1) age(0) )
+vec( gender(1) )
+
+vec( gender(-1) age(-1) )
 ```
-this vector links a male to a female, both of same age.
+the first vector is from a male to a female of same age.
 
-
+the second vector is from a female to an younger man.
 
 
 
