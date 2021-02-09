@@ -5,6 +5,8 @@
 
 a scripting language
 
+*from an objective situation, a subjective vision emerges by subtraction. vectors capture these contrasts and react accordingly.*
+
 
 
 ## regular syntax
