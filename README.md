@@ -27,7 +27,7 @@ is like s-exp: `((a b) c d)`
 
 ## underlying core concepts
 
-### vectors and semes
+### semes
 
 sona is based on differential vectors.
 
@@ -62,26 +62,19 @@ atoms are instances of semes.
 
 
 
-### entities
+### declarations
 
-entities are structures made of atoms.
+dimensions are declared with `dim` and vectors with `vec`.
 
 ```
-a(b c(d) e)
+dim(
+    gender(male female)
+    age(young adult old)
+)
 
-         order   level
-a-b      =0      -1
-a-c      =0      -1
-a-d      =0      =0
-a-e      =0      -1
-b-c      +1      =0
-b-d      =0      =0
-b-e      =0      =0
-c-d      =0      -1
-c-e      +1      =0
-d-e      =0      =0
+vec( gender(1) age(0) )
 ```
-
+this vector links a male to a female, both of same age.
 
 
 
