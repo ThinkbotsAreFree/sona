@@ -61,7 +61,7 @@ atoms are instances of semes.
 
 
 
-### declarations
+### dimensions
 
 the dimension constructor is `dim`.
 
