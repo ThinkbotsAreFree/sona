@@ -29,11 +29,10 @@ is like s-exp: `((a b) c d)`
 
 ### semes
 
-sona is based on differential vectors.
-
 a seme is a minimal unit of meaning. a seme is defined only by its relations to other semes.
 
 a relation between two semes is characterized by an N-dimensions vector that describes the relation.
+
 ```
                  gender   rarity   ...
 king-queen       +1       =0
@@ -81,6 +80,7 @@ vec(
     age(-1)
 )
 ```
+
 the first vector is from a male to a female of same age, the second vector is from a female to a younger male.
 
 
