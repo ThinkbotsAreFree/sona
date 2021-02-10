@@ -117,7 +117,7 @@ seme(prince)(
 
 ### concepts
 
-concepts are sets of semes, and values expressed in their dimensions.
+concepts are sets of semes and values expressed in their dimensions.
 
 ```
 concept(puppy)(
