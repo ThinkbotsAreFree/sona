@@ -48,9 +48,10 @@ dim(
     gender(male female)
     age(young adult old)
     species(dog cat cow)
+    rarity(common rare)
 )
 
-vec( gender(1) )
+vec( gender(+1) )
 
 vec(
     gender(-1)
@@ -105,7 +106,8 @@ another syntax allows more compact descriptions from one seme to others.
 ```
 seme(prince)(
     to(king)( older )
-    to(princess)( gender(1) )
+    to(princess)( gender(+1) )
+    from(man)( rarity(+1) )
 )
 ```
 
