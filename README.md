@@ -31,7 +31,7 @@ is like s-exp: `((a b) c d)`
 
 
 
-## core concepts
+## overview
 
 vectors are differences between things. vectors may have many dimensions.
 
@@ -113,7 +113,16 @@ seme(prince)(
 
 
 
+### concepts
 
+concepts are sets of values, expressed in their dimensions.
 
+```
+concept(puppy)(
+
+    species(dog)
+    age(young)
+)
+```
 
 
