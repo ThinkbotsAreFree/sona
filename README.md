@@ -101,9 +101,9 @@ seme(king queen)(
 the difference between a `king` and a `queen` is `gender`. 
 
 ```
-seme(younger)(
+seme(older younger)(
     age(-1)
 )
 ```
 
-`younger` means 1 step left on the `age` dimension.
+from `older` to `younger` means 1 step left on the `age` dimension.
