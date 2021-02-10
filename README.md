@@ -84,7 +84,13 @@ vec(
 )
 ```
 
-the first vector is from a male to a female of same age, the second vector is from a female to a younger male.
+the first vector is from a male to a female of same age, the second vector is from a female to a younger male. these are anonymous vectors.
+
+named vectors are constructed with the name as first content.
+
+```
+vec( younger age(-1) )
+```
 
 
 
@@ -93,17 +99,13 @@ the first vector is from a male to a female of same age, the second vector is fr
 the seme constructor is `seme`.
 
 ```
-seme(king queen)(
-    gender(1)
+seme(queen king)(
+    gender(-1)
 )
 ```
 
-the difference between a `king` and a `queen` is `gender`. 
+from `queen` to `king` means 1 step left on the `gender` dimension.
 
-```
-seme(older younger)(
-    age(-1)
-)
-```
+this is actually syntactic sugar for `seme(queen king) vec( gender(-1) )`
 
-from `older` to `younger` means 1 step left on the `age` dimension.
+
