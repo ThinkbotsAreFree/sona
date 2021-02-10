@@ -99,13 +99,15 @@ vec( younger age(-1) )
 the seme constructor is `seme`.
 
 ```
-seme(queen king)(
-    gender(-1)
-)
+seme(queen king)( gender(-1) )
 ```
 
 from `queen` to `king` means 1 step left on the `gender` dimension.
 
-this is actually syntactic sugar for `seme(queen king) vec( gender(-1) )`
+this is actually syntactic sugar for
+
+```
+seme(queen king) vec( gender(-1) )
+```
 
 
