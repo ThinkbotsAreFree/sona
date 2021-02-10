@@ -107,7 +107,9 @@ from `queen` to `king` means 1 step left on the `gender` dimension.
 this is actually syntactic sugar for:
 
 ```
-seme(queen king) vec( gender(-1) )
+seme(queen king) vec(
+    gender(-1)
+)
 ```
 
 the name of existing named vectors can be used.
