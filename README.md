@@ -58,7 +58,7 @@ vec(
 )
 ```
 
-the first vector is from a male to a female of same age, the second vector is from a female to a younger male. these are anonymous vectors.
+the first vector is from a male to a female, the second vector is from a female to a younger male. these are anonymous vectors.
 
 named vectors are constructed like this:
 
