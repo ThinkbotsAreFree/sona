@@ -127,6 +127,12 @@ concept(puppy)(
 )
 ```
 
+if there is no ambiguity, dimensions can be implicit.
+
+```
+concept(puppy)( young dog )
+```
+
 
 
 ### entities
