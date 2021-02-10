@@ -64,6 +64,8 @@ named vectors are constructed like this:
 vec(younger)( age(-1) )
 ```
 
+`younger` means 1 step left on the `age` dimension.
+
 
 
 ### semes
