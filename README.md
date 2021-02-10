@@ -97,3 +97,19 @@ seme(adult child) younger
 ```
 
 from `adult` to `child` means `younger`.
+
+another syntax allows more compact descriptions from one seme to others.
+
+```
+seme(prince)(
+    to(king)( younger )
+    to(princess)( gender(1) )
+)
+```
+
+
+
+
+
+
+
