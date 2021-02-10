@@ -86,10 +86,10 @@ vec(
 
 the first vector is from a male to a female of same age, the second vector is from a female to a younger male. these are anonymous vectors.
 
-named vectors are constructed with the name as first content.
+named vectors are constructed like this:
 
 ```
-vec( younger age(-1) )
+vec(younger)( age(-1) )
 ```
 
 
