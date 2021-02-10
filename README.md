@@ -92,14 +92,18 @@ the first vector is from a male to a female of same age, the second vector is fr
 
 the seme constructor is `seme`.
 
-the atom constructor is `atom`.
-
-
 ```
 seme(king queen)(
     gender(1)
 )
 ```
 
+the difference between a `king` and a `queen` is `gender`. 
 
+```
+seme(younger)(
+    age(-1)
+)
+```
 
+`younger` means 1 step left on the `age` dimension.
