@@ -89,6 +89,7 @@ this is actually syntactic sugar for:
 
 ```
 seme(queen king) vec(
+
     gender(-1)
 )
 ```
@@ -105,6 +106,7 @@ another syntax allows more compact descriptions from one seme to others.
 
 ```
 seme(prince)(
+
     to(king)( older )
     to(princess)( gender(+1) )
     from(man)( rarity(+1) )
