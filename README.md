@@ -27,7 +27,7 @@ is like s-exp: `((a b) c d)`
 
 
 
-## underlying core concepts
+## core concepts
 
 ### semes
 
