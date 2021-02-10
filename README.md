@@ -1,6 +1,8 @@
 
 
 
+![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona.png)
+
 # sona
 
 a scripting language
