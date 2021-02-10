@@ -128,3 +128,20 @@ concept(puppy)(
 ```
 
 
+
+### entities
+
+entities are instances of concepts.
+
+```
+entity(esmeralda)(
+
+    puppy
+    rarity(rare)
+    gender(female)
+)
+```
+
+
+
+
