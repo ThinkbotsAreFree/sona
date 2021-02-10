@@ -7,7 +7,7 @@ a scripting language
 
 ![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona.png)
 
-> *from an objective situation, a subjective perception emerges by subtraction. vectors capture these contrasts and react accordingly.*
+> *from an objective situation, a subjective perception emerges by subtraction. vectors express these contrasts.*
 
 
 
@@ -31,41 +31,11 @@ is like s-exp: `((a b) c d)`
 
 ## core concepts
 
-### semes
-
-a seme is a minimal unit of meaning. a seme is defined only by its relations to other semes.
-
-a relation between two semes is characterized by an N-dimensions vector that describes the relation.
-
-```
-                 gender   rarity   ...
-king-queen       +1       =0
-king-man         =0       -1
-king-woman       +1       -1
-queen-king       -1       =0
-queen-man        -1       -1
-queen-woman      =0       -1
-man-king         =0       +1
-man-queen        +1       +1
-man-woman        +1       =0
-woman-king       -1       +1
-woman-queen      =0       +1
-woman-man        -1       =0
-```
-
-vectors are transitive.
+vectors are differences between things. vectors may have many dimensions.
 
 
 
-### atoms
-
-semes are like archetypes, classes, or models.
-
-atoms are instances of semes.
-
-
-
-### dimensions
+### vectors
 
 the dimension constructor is `dim`.
 
@@ -96,7 +66,11 @@ vec(younger)( age(-1) )
 
 
 
-### entities
+### semes
+
+a seme is a minimal unit of meaning. a seme is defined only by its relations to other semes.
+
+a relation between two semes is characterized by an N-dimensions vector that describes the relation.
 
 the seme constructor is `seme`.
 
