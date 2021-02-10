@@ -102,7 +102,7 @@ another syntax allows more compact descriptions from one seme to others.
 
 ```
 seme(prince)(
-    to(king)( younger )
+    to(king)( older )
     to(princess)( gender(1) )
 )
 ```
