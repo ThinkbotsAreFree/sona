@@ -1,11 +1,11 @@
 
 
 
-![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona.png)
-
 # sona
 
 a scripting language
+
+![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona.png)
 
 > *from an objective situation, a subjective perception emerges by subtraction. vectors capture these contrasts and react accordingly.*
 
