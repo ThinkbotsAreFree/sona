@@ -148,6 +148,12 @@ entity(esmeralda)(
 )
 ```
 
+again if there is no ambiguity, the description can be shortened.
+
+```
+entity(esmeralda)( rare female puppy )
+```
+
 
 
 
