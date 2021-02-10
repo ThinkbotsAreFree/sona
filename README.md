@@ -5,7 +5,9 @@
 
 a scripting language
 
-![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona.png)
+![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona-up.png)
+
+![](https://github.com/ThinkbotsAreFree/sona/raw/main/sona-down.png)
 
 > *from an objective situation, a subjective perception emerges by subtraction. vectors express these contrasts.*
 
