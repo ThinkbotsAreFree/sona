@@ -129,7 +129,7 @@ concept(puppy)(
 if there is no ambiguity, dimensions can be implicit.
 
 ```
-concept(puppy)( young dog )
+concept(puppy)(young dog)
 ```
 
 
@@ -150,7 +150,7 @@ entity(esmeralda)(
 again if there is no ambiguity, the description can be shortened.
 
 ```
-entity(esmeralda)( female princess puppy )
+entity(esmeralda)(female princess puppy)
 ```
 
 
