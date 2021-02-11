@@ -155,4 +155,13 @@ entity(esmeralda)( rare female puppy )
 
 
 
+### paths
+
+paths of interest can be declared with `path`.
+
+```
+path(esmeralda john)
+```
+
+
 
