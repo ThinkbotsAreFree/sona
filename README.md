@@ -142,7 +142,7 @@ entities are instances of concepts.
 entity(esmeralda)(
 
     puppy
-    rarity(rare)
+    princess
     gender(female)
 )
 ```
@@ -150,7 +150,7 @@ entity(esmeralda)(
 again if there is no ambiguity, the description can be shortened.
 
 ```
-entity(esmeralda)( rare female puppy )
+entity(esmeralda)( female princess puppy )
 ```
 
 
