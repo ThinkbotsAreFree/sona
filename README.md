@@ -155,13 +155,6 @@ entity(esmeralda)(female princess puppy)
 
 
 
-### paths
-
-paths of interest can be declared with `path`.
-
-```
-path(esmeralda john)
-```
 
 
 
