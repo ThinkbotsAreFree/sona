@@ -87,7 +87,7 @@ from `queen` to `king` means 1 step left on the `gender` dimension.
 this is actually syntactic sugar for:
 
 ```
-seme(queen king) vec(
+vec( seme(queen king) )(
 
     gender(-1)
 )
@@ -96,7 +96,7 @@ seme(queen king) vec(
 the name of existing named vectors can be used.
 
 ```
-seme(adult child) younger
+seme(adult child)(younger)
 ```
 
 from `adult` to `child` means `younger`.
